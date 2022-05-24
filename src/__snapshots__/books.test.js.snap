@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a single book 1`] = `
+<p>
+  Harry Potter
+</p>
+`;
+
+exports[`should render an empty message when no books 1`] = `
+<span>
+  We didn't find any books.
+</span>
+`;
+
+exports[`should render multiple books 1`] = `
+<ol>
+  <li>
+    Harry Potter
+  </li>
+  <li>
+    The Lord of the Rings
+  </li>
+</ol>
+`;
